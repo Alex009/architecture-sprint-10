@@ -1,12 +1,12 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
-  <diagram name="Страница — 1" id="flqb_vgoVWN2gIgyEzhE">
-    <mxGraphModel dx="3014" dy="1220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram name="MVP" id="flqb_vgoVWN2gIgyEzhE">
+    <mxGraphModel dx="4414" dy="2592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <object placeholders="1" c4Name="МЕДИКАМЕНТЕ" c4Type="SystemScopeBoundary" c4Application="Архитектура" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="-rCLtENTZyw--RfLadG2-3">
           <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
-            <mxGeometry x="-920" y="600" width="1050" height="1470" as="geometry" />
+            <mxGeometry x="-920" y="490" width="1050" height="1580" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="File system" c4Type="ContainerScopeBoundary" c4Application="Хранилище фалов на диске" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="-rCLtENTZyw--RfLadG2-1">
@@ -21,7 +21,7 @@
         </object>
         <object placeholders="1" c4Name="Administrator" c4Type="Person" c4Description="Сотрудник ресепшена" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="-rCLtENTZyw--RfLadG2-6">
           <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" parent="1" vertex="1">
-            <mxGeometry x="-1290" y="710" width="200" height="180" as="geometry" />
+            <mxGeometry x="-1320" y="690" width="200" height="180" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Bookkeeper" c4Type="Person" c4Description="Бухгалтер" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="-rCLtENTZyw--RfLadG2-7">
@@ -144,7 +144,7 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Description="Запись пациента к специалисту&#xa;[HTTPS, LAN]" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="09KiZqYfXbnlfeXMHTuH-19">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-rCLtENTZyw--RfLadG2-6" target="lu9NmXmZhPyEy42ymtDv-1" edge="1">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-rCLtENTZyw--RfLadG2-6" target="KqjdcT6xWIcY3326OVTd-19" edge="1">
             <mxGeometry width="240" relative="1" as="geometry">
               <mxPoint x="-1090" y="1460" as="sourcePoint" />
               <mxPoint x="-680" y="810.0000000000002" as="targetPoint" />
@@ -163,7 +163,7 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Description="Регистрация пациента в системе&#xa;[HTTPS, LAN]" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="09KiZqYfXbnlfeXMHTuH-21">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-rCLtENTZyw--RfLadG2-6" target="lu9NmXmZhPyEy42ymtDv-1" edge="1">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-rCLtENTZyw--RfLadG2-6" target="KqjdcT6xWIcY3326OVTd-19" edge="1">
             <mxGeometry width="240" relative="1" as="geometry">
               <mxPoint x="-1080" y="855" as="sourcePoint" />
               <mxPoint x="-800" y="1000" as="targetPoint" />
@@ -172,11 +172,11 @@
         </object>
         <object placeholders="1" c4Name="Doctor" c4Type="Person" c4Description="Специалист-медик" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="09KiZqYfXbnlfeXMHTuH-22">
           <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" parent="1" vertex="1">
-            <mxGeometry x="-670" y="340" width="200" height="180" as="geometry" />
+            <mxGeometry x="-580" y="280" width="200" height="180" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Description="Просмотр и редактирование своего журнала&#xa;[HTTPS, LAN]" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="09KiZqYfXbnlfeXMHTuH-23">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="09KiZqYfXbnlfeXMHTuH-22" target="lu9NmXmZhPyEy42ymtDv-1" edge="1">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="09KiZqYfXbnlfeXMHTuH-22" target="KqjdcT6xWIcY3326OVTd-16" edge="1">
             <mxGeometry width="240" relative="1" as="geometry">
               <mxPoint x="-1080" y="810" as="sourcePoint" />
               <mxPoint x="-560" y="750.0000000000002" as="targetPoint" />
@@ -198,7 +198,7 @@
         </object>
         <object placeholders="1" c4Name="Laboratory" c4Type="Software System" c4Description="Медицинская лаборатория" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="09KiZqYfXbnlfeXMHTuH-25">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
-            <mxGeometry x="-350" y="430" width="240" height="120" as="geometry" />
+            <mxGeometry x="-180" y="310" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Laboratory Registry" c4Type="Folder" c4Application="Папка" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="09KiZqYfXbnlfeXMHTuH-26">
@@ -227,38 +227,138 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Name="АИС&#xa;" c4Type="Software System" c4Description="Информационная системы компании" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="lu9NmXmZhPyEy42ymtDv-1">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="-690" y="740" width="240" height="120" as="geometry" />
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="-600" y="740" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Веб-портал" c4Type="Software System" c4Description="Веб-портал компании для онлайн записи пациентов" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="lu9NmXmZhPyEy42ymtDv-2">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="-180" y="740" width="240" height="120" as="geometry" />
+        <object placeholders="1" c4Name="Веб-портал пациентов" c4Type="Software System" c4Description="Веб-портал компании для онлайн записи пациентов" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="lu9NmXmZhPyEy42ymtDv-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="-130" y="740" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="lu9NmXmZhPyEy42ymtDv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lu9NmXmZhPyEy42ymtDv-2" target="lu9NmXmZhPyEy42ymtDv-1">
+        <mxCell id="lu9NmXmZhPyEy42ymtDv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-rCLtENTZyw--RfLadG2-9" target="lu9NmXmZhPyEy42ymtDv-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lu9NmXmZhPyEy42ymtDv-4" value="Получение данных о доступности врачей&lt;br&gt;Создание записи посещения врача&lt;br&gt;[HTTPS, LAN]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lu9NmXmZhPyEy42ymtDv-3">
-          <mxGeometry x="0.3418" y="-1" relative="1" as="geometry">
-            <mxPoint x="41" y="-39" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lu9NmXmZhPyEy42ymtDv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-rCLtENTZyw--RfLadG2-9" target="lu9NmXmZhPyEy42ymtDv-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lu9NmXmZhPyEy42ymtDv-7" value="Получение данных о доступности врачей&lt;br&gt;Создание записи посещения врача&lt;br&gt;[HTTPS, Internet]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lu9NmXmZhPyEy42ymtDv-5">
+        <mxCell id="lu9NmXmZhPyEy42ymtDv-7" value="Получение данных о доступности врачей&lt;br&gt;Создание записи посещения врача&lt;br&gt;[HTTPS, Internet]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lu9NmXmZhPyEy42ymtDv-5" vertex="1" connectable="0">
           <mxGeometry x="0.7289" y="2" relative="1" as="geometry">
             <mxPoint x="83" y="-32" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lu9NmXmZhPyEy42ymtDv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-rCLtENTZyw--RfLadG2-6" target="lu9NmXmZhPyEy42ymtDv-1">
+        <mxCell id="lu9NmXmZhPyEy42ymtDv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-rCLtENTZyw--RfLadG2-6" target="KqjdcT6xWIcY3326OVTd-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lu9NmXmZhPyEy42ymtDv-9" value="Получение информации о записанных к врачу пациентах&lt;br&gt;[HTTPS, LAN]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lu9NmXmZhPyEy42ymtDv-8">
+        <mxCell id="lu9NmXmZhPyEy42ymtDv-9" value="Получение информации о записанных к врачу пациентах&lt;br&gt;[HTTPS, LAN]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lu9NmXmZhPyEy42ymtDv-8" vertex="1" connectable="0">
           <mxGeometry x="-0.3094" y="2" relative="1" as="geometry">
             <mxPoint x="70" y="-18" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-2" value="&lt;p style=&quot;margin-top: 0px;&quot;&gt;На замену Excel файлам приходит кастомная информационная система (АИС).&lt;br&gt;&lt;br&gt;Хранение данных теперь - PostgreSQL (с шифрованием определенных колонок через pgcrypto)&lt;br&gt;Бекенд для начала простой монолит, но с stateless реализацией. Тогда при повышенной нагрузке можно будет горизонтально масштабировать. Со временем такую реализацию можно будет и по микросервисам разделять.&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;На этапе MVP пока АИС не будет работать с файлами пациентов - они пока останутся на диске, но доступ будет выдаваться пользователям автоматически через АИС и забираться, когда уже не требуется - точечная выдача прав на windows server доступна.&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px;&quot;&gt;В бизнеслогике АИС будет реализовано:&lt;br&gt;1. выдача данных в соответствии с ролью пользователя из JWT&lt;br&gt;2. маскирование данных к которым доступа нет&lt;br&gt;3. для этапа MVP простое тегирование через метаданные колонок в БД. То есть колонка например &quot;диагноз&quot; будет во первых зашифрована, во вторых иметь в бизнес логике проверку на уровень доступа пользователя - если роль пользователя не имеет доступа к медицинским данным, то доступ не выдается.&lt;br&gt;&lt;br&gt;По умолчанию все данные уровня Confidential выдаются системой в маскированном виде. Чтобы пользователь мог увидеть данные он нажимает на специальную кнопку около нужного поля, после чего в АИС отправляется запрос на получение данных этого поля, АИС проверяет доступ в соответствии с ролью пользователя, уровню защиты конкретных данных и записывает событие аудита. Таким образом будет известно кто и когда пытается получить данные, а также удалось ли это.&lt;br&gt;&lt;br&gt;Доступ к файлам также делается через явное действие пользователя - получить доступ. Записывается событие аудита, проверяются права, если всё ок - выдается доступ до файла в директории. (это на время MVP)&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1415" width="430" height="550" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Keycloak" c4Type="Software System" c4Description="Менеджмент юзеров и авторизация" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="KqjdcT6xWIcY3326OVTd-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="-130" y="910" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lu9NmXmZhPyEy42ymtDv-2" target="KqjdcT6xWIcY3326OVTd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-13" value="Получение public key&lt;br&gt;для проверки подписи JWT&lt;br&gt;[HTTPS, LAN]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqjdcT6xWIcY3326OVTd-7">
+          <mxGeometry x="-0.0729" relative="1" as="geometry">
+            <mxPoint x="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="09KiZqYfXbnlfeXMHTuH-22" target="KqjdcT6xWIcY3326OVTd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-11" value="Авторизация в системе&lt;br&gt;[HTTPS, LAN]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqjdcT6xWIcY3326OVTd-10">
+          <mxGeometry x="-0.4027" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-rCLtENTZyw--RfLadG2-6" target="KqjdcT6xWIcY3326OVTd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-15" value="Авторизация в системе&lt;br&gt;[HTTPS, LAN]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqjdcT6xWIcY3326OVTd-14">
+          <mxGeometry x="-0.8457" y="2" relative="1" as="geometry">
+            <mxPoint x="68" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;" edge="1" parent="1" source="lu9NmXmZhPyEy42ymtDv-1" target="KqjdcT6xWIcY3326OVTd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-12" value="Получение public key &lt;br&gt;для проверки подписи JWT&lt;br&gt;[HTTPS, LAN]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqjdcT6xWIcY3326OVTd-5">
+          <mxGeometry x="-0.7826" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lu9NmXmZhPyEy42ymtDv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;" parent="1" source="lu9NmXmZhPyEy42ymtDv-2" target="lu9NmXmZhPyEy42ymtDv-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lu9NmXmZhPyEy42ymtDv-4" value="Получение данных о доступности врачей&lt;br&gt;Создание записи посещения врача&lt;br&gt;[HTTPS, LAN]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lu9NmXmZhPyEy42ymtDv-3" vertex="1" connectable="0">
+          <mxGeometry x="0.3418" y="-1" relative="1" as="geometry">
+            <mxPoint x="41" y="-39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Веб-портал врачей" c4Type="Software System" c4Description="Веб-портал компании для работы врачей со своим журналом" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="KqjdcT6xWIcY3326OVTd-16">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="-600" y="550" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KqjdcT6xWIcY3326OVTd-16" target="lu9NmXmZhPyEy42ymtDv-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-18" value="Получение и запись данных&lt;div&gt;[HTTPS, LAN]&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqjdcT6xWIcY3326OVTd-17">
+          <mxGeometry x="-0.084" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Веб-портал ресепшена" c4Type="Software System" c4Description="Веб-портал компании для работы ресепшена с списком клиентов и уведомлением врачей о записях" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="KqjdcT6xWIcY3326OVTd-19">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="-890" y="740" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KqjdcT6xWIcY3326OVTd-19" target="lu9NmXmZhPyEy42ymtDv-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-21" value="Получение и запись данных&lt;br&gt;[HTTPS, LAN]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqjdcT6xWIcY3326OVTd-20">
+          <mxGeometry x="-0.1129" y="1" relative="1" as="geometry">
+            <mxPoint y="51" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-22" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p style=&quot;font-size: 12px; font-weight: 400; margin-top: 0px;&quot;&gt;Для сотрудников ресепшена делаем веб портал, в котором сотрудники будут видеть записи пациентов к врачам. Также сотрудники ресепшена в этом портале будут заводить новых пациентов записывающихся не через веб портал пациента.&lt;br&gt;&lt;br&gt;Бекендом будет выступать сама АИС, которая будет выдавать данные в соответствии с ролью пользователя в системе.&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1090" y="580" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-23" value="Для врачей будет небольшой веб портал, где врач будет видеть свой журнал пациентов и будет иметь доступ до данных пациента для проведения приёма." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="460" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-24" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Промежуточное состояние (через пару месяцев)&lt;/h1&gt;&lt;p&gt;MVP, в котором клиент сможет самостоятельно записаться на приём к специалисту через портал компании. &lt;br&gt;При этом команда ресепшена будет видеть эту запись: сотрудники смогут отследить запись в системе и за день до приёма напомнить про него и пациенту, и специалисту. &lt;br&gt;Необходимо определить категории данных пациентов и разнести их по различным доменам. &lt;br&gt;Для каждой категории данных определить роли (RBAC) или атрибуты (ABAC), на основании которых сотрудникам будет разрешён доступ к данным.&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-970" y="-140" width="450" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;" edge="1" parent="1" source="09KiZqYfXbnlfeXMHTuH-22" target="09KiZqYfXbnlfeXMHTuH-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-320" y="370" />
+              <mxPoint x="-320" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-26" value="Чтение и запись &lt;br&gt;файлов пациента" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KqjdcT6xWIcY3326OVTd-25">
+          <mxGeometry x="-0.8915" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-28" value="На время приёма АИС автоматически будет открывать доступ к директории данных пациента на диске (на период MVP)." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="230" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-29" value="Веб портал пациентов будет доступен из интернета и позволит записаться пользователю к врачу. На этапе MVP пока без личного кабинета и авторизации пациента." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="620" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-30" value="Всё взаимодействие систем идет по HTTPS, как внутри локальной сети, так и доступное из интернета.&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Из интернета доступен только один веб-портал пациентов - фронтенд и API бекенда данного вебпортала. Всё остальное находится в локальной сети компании, без доступа из вне.&lt;br&gt;API бекенда вебпортала пациентов работает с АИС по локальной сети.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="560" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="KqjdcT6xWIcY3326OVTd-31" value="Данные пациентов&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- ФИО -&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Доступно ролям Администратор и Доктор. По умолчанию отображается в ui без дополнительных кликов.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- телефон - доступно Администратору&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- email - доступно Администратору&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- дата рождения -&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Доступно ролям Администратор и Доктор&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Паспортные данные&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- доступно Администратору&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;- адрес регистрации&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- доступно Администратору&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;- прописка&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- доступно Администратору&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;- работа&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- доступно Администратору&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Полис ОМС&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- доступно Администратору&lt;/span&gt;&lt;/div&gt;&lt;div&gt;-&amp;nbsp;медкарта - доступно Доктору&lt;/div&gt;&lt;div&gt;- анализы&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- доступно Доктору&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- медицинские заключения&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- доступно Доктору&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Договора клиентов - доступно Администратору&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;- согласия клиентов&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- доступно Администратору&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Для администратора доступен полный список пациентов. &lt;br&gt;Для врачей доступен список только тех пациентов, которые имеют запись к данному врачу.&lt;br&gt;&lt;br&gt;Для просмотра перечисленных выше данных (за исключением ФИО) нужно явно нажимать кнопку показа конкретного поля, что запишется в аудит и проверит уровень доступа.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1790" y="240" width="350" height="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
